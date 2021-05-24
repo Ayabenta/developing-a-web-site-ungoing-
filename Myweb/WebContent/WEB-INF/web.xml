@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>Myappservlet</servlet-name>
+    <servlet-class>com.octest.servlets.Myappservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Myappservlet</servlet-name>
+    <url-pattern>/patient</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>form</servlet-name>
+    <servlet-class>com.octest.servlets.form</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>form</servlet-name>
+    <url-pattern>/Formulaire</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Form2</servlet-name>
+    <servlet-class>com.octest.servlets.Form2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Form2</servlet-name>
+    <url-pattern>/Formulaire2</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>Form0</servlet-name>
+    <servlet-class>com.octest.servlets.Form0</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Form0</servlet-name>
+    <url-pattern>/Formulaire0</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Aurevoir</servlet-name>
+    <servlet-class>com.octest.servlets.Aurevoir</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Aurevoir</servlet-name>
+    <url-pattern>/end</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
